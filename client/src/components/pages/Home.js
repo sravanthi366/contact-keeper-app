@@ -14,14 +14,22 @@ const Home = () => {
     },[])
 
     return (
-        <div className='grid-2'>
+        <div className='grid-2 '>
             <div>
             <ContactForm/>
             </div>
-            <div>
-                <ContactFilter/>
-                <Contacts/>
-            </div>
+             <span>
+             <div>
+               
+               <ContactFilter/></div>
+               < div className='scrollbar scrollbar-morpheus-den'>
+               <Contacts />
+                              
+                </div>
+                 </span>      
+           
+         
+          
         </div>
     )
 }

@@ -14,7 +14,7 @@ const ContactItem = ({ contact }) => {
         clearCurrent()
     }
     return (
-        <div className='card bg-light '>
+        <div className='card bg-light  '>
             <h3 className='text-primary text-left'>
                 {name} {''} <span style={{float:'right'}}
                     className={(type === 'professional' ? 'badge badge-success' : 'badge badge-primary')}>{type.charAt(0).toUpperCase() + type.slice(1)}</span>
